@@ -1,5 +1,5 @@
 Q1. ![IMG_1885](https://github.com/areebahasnain/PfFall23/assets/142868074/55d4b749-db40-4d97-bc0b-3ae2ef0595cc)
 Q2. ![IMG_1886](https://github.com/areebahasnain/PfFall23/assets/142868074/c82c5897-f1eb-4fa7-96b7-8296b8aab543)
 Q3. ![IMG_1887](https://github.com/areebahasnain/PfFall23/assets/142868074/dd80a803-2415-4793-bfb5-09ff50209772)
-Q4. ![IMG_1888](https://github.com/areebahasnain/PfFall23/assets/142868074/9304cda3-8824-4434-952d-157f85bca0f4)
+Q4. ![image_6487327](https://github.com/areebahasnain/PfFall23/assets/142868074/a4b3ca43-7232-43ff-bf3c-e1cd1d8a2199)
 Q5. ![IMG_1889](https://github.com/areebahasnain/PfFall23/assets/142868074/1ae8a1c1-4ad6-476c-ba10-6e785e0a28f1)
