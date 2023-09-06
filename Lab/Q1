@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a=0;
+   int b=0;
+   printf("taking inputs\n");
+   printf("enter a:  ");
+   scanf("%d", &a);
+   printf("enter b: ");
+   scanf("%d ,&b");
+   printf("additional answer");
+   int addition = a + b;
+   printf("answer:  %d", addition);
+   printf("multiplication answer");
+   int multiplication = a*b;
+   printf("answer  :%d", multiplication);
+   printf("subtraction answer");
+   int subtraction=a-b;
+   printf("answer  :%d, subtraction");
+   printf("division answer");
+   int division = a/b;
+   printf("answer  ;%d", division); 
+}
