@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int original, discount;
+    original=1500;
+    discount=original-(original*0.2);
+    printf("the discounted price is %d",discount);
+}
