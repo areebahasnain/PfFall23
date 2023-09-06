@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int south1=10;
+   int south2=5;
+   int north=15;
+   int west=10;
+   int totaldistance = south1+south2+north+west;
+   int fuel=2*totaldistance;
+   printf("total distance is equal to %d", totaldistance);
+   printf(" and the fuel is %d", fuel);
+}
