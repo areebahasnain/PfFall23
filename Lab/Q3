@@ -1,0 +1,15 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+    int base, perp;
+    float hyp=0;
+    printf("enter the base");
+    scanf("%d" ,&base);
+    printf("enter the perp");
+    scanf("%d" ,&perp);
+    hyp=sqrt((perp*perp)+(base*base));
+    printf("the hypotenuse is:%f" ,hyp);
+    return 0;
+}
