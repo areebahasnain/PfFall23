@@ -1,24 +1,34 @@
-#include <iostream>
-using namespace std;
-int main()
-{
-   int a=0;
-   int b=0;
-   printf("taking inputs\n");
-   printf("enter a:  ");
-   scanf("%d", &a);
-   printf("enter b: ");
-   scanf("%d ,&b");
-   printf("additional answer");
-   int addition = a + b;
-   printf("answer:  %d", addition);
-   printf("multiplication answer");
-   int multiplication = a*b;
-   printf("answer  :%d", multiplication);
-   printf("subtraction answer");
-   int subtraction=a-b;
-   printf("answer  :%d, subtraction");
-   printf("division answer");
-   int division = a/b;
-   printf("answer  ;%d", division); 
-}
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+	int num1, num2;
+	char userChoice;
+	printf("Operations -> '+', '-', '*', '/' OR press 'E' to exit.\n");
+	do {
+		// userChoice
+		printf("Input choice: ");
+		scanf(" %c", &userChoice);
+		// exit
+		if (userChoice == 'e' || userChoice == 'E') {
+			break;
+		};
+		// num1
+		printf("Input first number: ");
+		scanf("%d", &num1);
+		// num2
+		printf("Input second number: ");
+		scanf("%d", &num2);
+		if (userChoice == '+') {
+			printf("Answer: %d\n", num1 + num2);
+		} else if (userChoice == '-') {
+			printf("Answer: %d\n", num1 - num2);
+		} else if (userChoice == '*') {
+			printf("Answer: %d\n", num1 * num2);
+		} else if (userChoice == '/') {
+			printf("Answer: %.1f\n", (float) num1 / num2);
+		};
+
+	} while(1);
+
+	return 0;
+}; // end main()
