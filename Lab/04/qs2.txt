@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main () {
+// Programmer: Areeba Hasnain Shaikh
+// 12/09/2023
+// print *
+int n, i, j; // row count for '*', counter for rows, counter for '*'
+	i = 0, j = 0; // initialize i and j
+
+	printf("Input any number 'n': ");
+	scanf("%d", &n);
+
+	while (i < n) {
+
+		// adding '*'
+		j = 0;
+		while (j < n) {
+			printf("*");
+			j++;
+		} 		
+		printf("\n"); // starting new line
+		i++;
+	}
+
+}// end main
