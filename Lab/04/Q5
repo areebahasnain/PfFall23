@@ -1,7 +1,8 @@
-#include <stdio.h>
 // Programmer: Areeba Hasnain Shaikh
 // 12/09/2023
 // comparing DOB
+
+#include <stdio.h>
 int main() {
 	int D1, M1, Y1; 
 	// birth date, birth month and birth year of person 1
@@ -19,18 +20,28 @@ int main() {
         printf("Person 1 is older than Person 2.\n");
     } else if (Y1 > Y2) {
         printf("Person 2 is older than Person 1.\n");
-    } else { // If years are the same, compare months
-        if (M1 < M2) {
+        
+        // If years are the same, compare months
+    } else if (M1 < M2)  {   
             printf("Person 1 is older than Person 2.\n");
-        } else if (M1 > M2) {
+        } 
+        else if (M1 > M2) {
             printf("Person 2 is older than Person 1.\n");
-        } else { // If months are the same, compare days
+        } 
+        
+        // If months are the same, compare days
+        else { 
             if (D1 < D2) {
                 printf("Person 1 is older than Person 2.\n");
-            } else if (D1 > D2) {
+            } 
+            else if (D1 > D2) {
                 printf("Person 2 is older than Person 1.\n");
-            } else { // If all fields are the same, they are of the same age
+            } 
+            
+            // If all fields are the same, they are of the same age
+            else { 
                 printf("Person 1 and Person 2 are of the same age.\n");
             }
         }
-    }
+    }//end main
+    
