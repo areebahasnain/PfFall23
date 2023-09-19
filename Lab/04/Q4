@@ -1,13 +1,13 @@
-// Online C compiler to run C program online
+/*
+ * Programmar: Areeba Hasnain
+ * Date: 12/9/23
+ * Description: Roots of Quadratic Equation
+ */
 #include <stdio.h>
-// Programmer: Areeba Hasnain Shaikh
-// 12/09/2023
-// Quadratic formula
-int main() {
-#include <math.h>
-void main() {
+
+main() {
 	int i, a, b, c; // input counter, a, b and c for quadratic
-	float d; // determinant of equation	
+	float d; // determinant
 
 	printf("Input a: ");
 	scanf("%d", &a);
@@ -17,7 +17,7 @@ void main() {
 	scanf("%d", &c); 
 
 	// calculating determinant
-	d = (b*b) - (4 * a * c);
+	d = pow(b, 2) - (4 * a * c);
 	
 	// identifying if determinant =, < or > 0
 	if (d == 0) {
