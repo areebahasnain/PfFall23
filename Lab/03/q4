@@ -1,9 +1,19 @@
-#include <iostream>
-using namespace std;
-int main()
-{
-    int original, discount;
-    original=1500;
-    discount=original-(original*0.2);
-    printf("the discounted price is %d",discount);
-}
+/* 
+ * Areeba Hasnain
+ * Description: Find discounted price
+ */
+
+#include <stdio.h>
+main() {
+	int discount, price;
+	
+	printf("Find discounted price\n\n");
+
+	printf("Input price: ");
+	scanf("%d", &price);
+
+	printf("Input discount: ");
+	scanf("%d", &discount);
+
+	printf("\nPrice after discount: %0.2f", (float) ( (1 - ( (float) discount/100)) * price ) );
+}; // end main()
