@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+
+int main() {
+  int num1, num2;
+  char opt;
+  printf("Enter a number: ")
+  scanf("%d", &num1);
+  printf("Enter number: ")
+  scanf("%d", &num2);
+  printf("Enter an operators (*,/,+or-): ")
+  scanf("%c", &opt);
+    
+    switch(op)
+    case '*':
+    printf("num1*num2")
+    
+    return 0;
+}
