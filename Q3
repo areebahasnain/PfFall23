@@ -1,0 +1,24 @@
+/*
+ * Programmar: Areeba Hasnain
+ * Date: 12/9/23
+ * Description: Find sum of square of 'n' numbers
+ */
+
+#include <stdio.h>
+main() {
+	int n, i, num, total; // amount of inputs, counter for sum, total, num taken as input
+	total = 0, i = 0; // initializing total and sum counter
+
+	printf("Enter a number: ");
+	scanf("%d", &n);
+
+	while (i < n) {
+		printf("%d. Input number : ", i + 1);
+		scanf("%d", &num);
+		total += pow(num, 2);
+		i++;
+	}
+
+	printf("Total is: %d", total);
+
+}// end main
