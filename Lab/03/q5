@@ -1,13 +1,17 @@
-#include <iostream>
-using namespace std;
-int main()
-{
-   int south1=10;
-   int south2=5;
-   int north=15;
-   int west=10;
-   int totaldistance = south1+south2+north+west;
-   int fuel=2*totaldistance;
-   printf("total distance is equal to %d", totaldistance);
-   printf(" and the fuel is %d", fuel);
-}
+/* 
+ * Areeba Hasnain
+ * Description: Fuel consumption calculator
+ */
+
+#include <stdio.h>
+main() {
+	int totalDistance, fuelRate;
+
+	printf("Input total distance travelled by vehicle (in km): ");
+	scanf("%d", &totalDistance);
+
+	printf("Input fuel consumption rate of vehicle (in litre): ");
+	scanf("%d", &fuelRate);
+
+	printf("Amount of fuel consumed is %.1f litres", (float) fuelRate * totalDistance);
+}; // end main()
