@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+
+int main() {
+    char ans;
+   printf("Are you sure to delete [Y/y]/[N/n]: ");
+    scanf("%c", & ans);
+    
+    switch(ans){
+        case 'Y': 
+        printf("Deleted sucessfully");
+        break;
+        case 'y':
+        printf("Delete canceled");
+        break;
+        case 'N': 
+        printf("Delete canceled");
+        break;
+        case 'n': 
+        printf("Deleted canceled");
+        break;
+        default: 
+        printf("Choose the right option");
+        break;
+    }
+    return 0;
+}
