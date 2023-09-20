@@ -1,0 +1,24 @@
+/*
+ * Programmar" Areeba Hasnain
+ * Date: 19/9/23
+ * Description: Check if 7th and 4th bits are on. If yes then turn them off
+ */
+
+#include <stdio.h>
+int main() {	
+	
+	int n, bit7, bit4;
+
+	printf("Input 8-bit number: ");
+	scanf("%d", &n);
+
+	// finding bit 4 and bit 7
+	bit7 = (n / 1000000) % 10;
+	bit4 = (n / 1000) % 10;
+
+	if (bit7 && bit4) {
+		n = n - 1000000 - 1000;
+	} 	
+
+	printf("%d", n);
+} // end main()
