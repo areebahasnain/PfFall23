@@ -1,0 +1,27 @@
+/*
+ * Programmar: Areeba Hasnain
+ * Date: 19/9/23
+ * Description: Evalute determinant to find roots
+ */
+
+#include <stdio.h>
+int main() {
+	int a, b, c;
+	float d;	//determinant
+
+	printf("Input 'a b c' in this format: ");
+	scanf("%d %d %d", &a, &b, &c); 
+
+	// finding determinant
+	d = b * b - (4 * a * c);	
+
+	//finding roots
+	if (d == 0) {
+		printf("x = %.4f", (float) ( -b + sqrt(d) ) / (2 * a));
+	} else if (d > 0) {
+		printf("x1 = %.4f, x2 = %.4f", (float) ( -b + sqrt(d) ) / (2 * a), (float) ( -b - sqrt(d) ) / (2 * a));
+	} else {
+		printf("no real roots");
+	}
+
+} // end main
