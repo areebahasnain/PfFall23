@@ -1,0 +1,24 @@
+/*
+* Programmar: Areeba Hasnain
+* Date: 19/9/23
+* Description: Give appropriate actions when a value of intensity is given
+*/
+
+#include <stdio.h>
+int main() {
+	int intensity;
+
+		printf("Input intensity value: ");
+		scanf("%d", &intensity);	
+
+	if (intensity >= 0 && intensity <= 100) {
+		printf("Phone is in darkness");
+	} else if (intensity > 100 && intensity <= 500) {
+		printf("Phone is in the Lighting range");
+	} else if (intensity > 500 && intensity<=1000) {
+		printf("Phone is exposed to Sunshine");
+	}	
+    else {
+        printf("Invalid light intensity value. Please enter a value between 0 and 1000.\n");
+    }
+} // end main()
