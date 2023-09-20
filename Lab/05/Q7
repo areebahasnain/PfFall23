@@ -1,0 +1,31 @@
+/*
+ * Programmar: Areeba Hasnain
+ * Date: 19/9/23
+ * Description: Print discount, cost with and without discount amount
+ */
+
+#include <stdio.h>
+int main() {
+	int cost, total, discount;
+	total = 0, cost = 0, discount = 0;
+
+	printf("Input the total cost of the shopping: ");
+	scanf("%d", &cost);
+
+	// checking what criteria final cost meets
+	if (cost >= 2000 && cost <= 4000) {
+		discount = cost * 0.2;
+	} else if (cost >= 4001 && cost <= 6000) {
+		discount = cost * 0.3;
+	} else if (cost >= 6001) {
+		discount = cost * 0.5;
+	} else {
+		total = cost;
+	}
+
+	total = cost - discount;
+
+	printf("Actual amount: %d\n", cost);
+	printf("Final amount: %d\n", total);
+	printf("Saved: %d", discount);
+} // end main()
