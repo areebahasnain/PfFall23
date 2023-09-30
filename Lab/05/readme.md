@@ -13,7 +13,7 @@ Q4.![20230921_230422](https://github.com/areebahasnain/PfFall23/assets/142868074
 Q5.![20230921_230445](https://github.com/areebahasnain/PfFall23/assets/142868074/91ccefc4-b635-4c56-a756-b9cf0ee335ec)
 
 
-Q6.![20230921_230523](https://github.com/areebahasnain/PfFall23/assets/142868074/f735c329-ce5f-45e4-8dbf-56e07dc2251f)
+Q6. ![20230930_184734](https://github.com/areebahasnain/PfFall23/assets/142868074/d8e529a6-f901-4a28-8146-4fa9006d35fc)
 
 
 Q7.![20230921_230527](https://github.com/areebahasnain/PfFall23/assets/142868074/4c88de1d-dfc1-438a-a02b-5858d96a3286)
