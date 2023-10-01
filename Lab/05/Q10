@@ -1,0 +1,41 @@
+/*
+ * Programmer Areeba Hasnain
+ * Date: 19/9/23
+ * Description: swapping first 4 bits with the last 4 bits
+ */
+
+#include <stdio.h>
+int main() {	
+	int num, bit, front, back;
+	front = 0;
+
+	printf("Input 8-bit number: ");
+	scanf("%d", &num);
+
+	if (num < 10) {
+		return;
+	}
+
+	// finding the first 4 bits
+	back = num / 10000;
+
+	int i = 0;
+	while(i < 4) {
+		bit = num % 10;
+		num = num / 10;
+
+		int j = i;
+		while(j--) {
+			bit = bit * 10;
+		}
+
+		// adding the bits
+		front = front + bit;
+		i++;
+	}
+
+	// last 4 bits
+	front = front * 10000;
+
+	printf("%08d", front + back);
+} // end main()
