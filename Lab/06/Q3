@@ -1,7 +1,7 @@
 /*
 *Programmer: Areeba Hasnain
-*date: 03/10/2023
-*LCM, and GCD of two numbers
+*Date: 03/10/2023
+*Description: LCM, and GCD of two numbers
 */
 #include <stdio.h>
 int main() {
