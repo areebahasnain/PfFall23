@@ -1,0 +1,56 @@
+/*
+ *  Programmer: Areeba Hasnain
+ *  Date: 10/3/2023
+ *  Description: print the english representation of the numbers or print if the iterated number is even or odd.
+ */ 
+
+#include <stdio.h>
+int main() {
+    int a, b, i;
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    while (a <= b) {
+        switch(a) {
+            case 1:
+                printf("One ");
+                break;
+            case 2:
+                printf("Two ");
+                break;
+            case 3:
+                printf("Three ");
+                break;
+            case 4:
+                printf("Four ");
+                break;
+            case 5:
+                printf("Five ");
+                break;
+            case 6:
+                printf("Six ");
+                break;
+            case 7:
+                printf("Seven ");
+                break;
+            case 8:
+                printf("Eight ");
+                break;
+            case 9:
+                printf("Nine ");
+                break;
+            default:
+                // checking last bit. if off then even otherwise odd.
+                if(i%2==0) {
+                    printf("Even");
+                }
+                else { 
+                    printf("Odd");
+                }
+    }
+
+    return 0;
+}
+}
