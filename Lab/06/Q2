@@ -1,0 +1,24 @@
+/*
+*Programmer: Areeba Hasnain
+*date: 03/10/2023
+*sum of fibonacci numbers upto 10000 divisible by 3,5,7
+*/
+#include <stdio.h>
+int main() {
+    int a=0, b=1, sum,totalsum=0 ;
+   
+    for(sum=0;sum<=10000;) {
+        printf("%d\t", sum);
+//finding the sum
+        if(sum%3==0 || sum%5==0 || sum%7==0){
+            totalsum= sum + totalsum;
+        }
+       
+//swapping numbers
+        a=b;
+        b=sum;
+        sum =a+b;
+    }
+    printf("\nsum of fibonacci numbers divisible ny 3, 5, 7: %d", totalsum);
+    return 0;
+}
