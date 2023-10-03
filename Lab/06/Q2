@@ -1,7 +1,7 @@
 /*
 *Programmer: Areeba Hasnain
-*date: 03/10/2023
-*sum of fibonacci numbers upto 10000 divisible by 3,5,7
+*Date: 03/10/2023
+*Description: sum of fibonacci numbers upto 10000 divisible by 3,5,7
 */
 #include <stdio.h>
 int main() {
