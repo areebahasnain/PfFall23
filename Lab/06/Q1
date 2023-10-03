@@ -1,7 +1,7 @@
 /*
 *Programmer: Areeba Hasnain
-*date: 03/10/2023
-*Finding perfect numbers
+*Date: 03/10/2023
+*Description: Finding perfect numbers
 */
 #include <stdio.h>
 int main () {
