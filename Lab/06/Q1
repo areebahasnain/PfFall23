@@ -1,0 +1,25 @@
+/*
+*Programmer: Areeba Hasnain
+*date: 03/10/2023
+*Finding perfect numbers
+*/
+#include <stdio.h>
+int main () {
+    int num, a, sum=0;
+    printf ("Enter a number: ");
+    scanf("%d",&num);
+   
+  for (a=1; a<=num/2; a++) {
+      if(num%a==0) {
+        sum= sum + a;
+      }
+       
+  }
+ if(sum==num){
+      printf("it is a perfect number");
+      }
+      else if (sum!=num) {
+          printf("it is not a perfect number");
+      }
+ 
+}
