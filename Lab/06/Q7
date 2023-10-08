@@ -1,0 +1,34 @@
+/*
+ * Programmer: Areeba Hasnain
+ * Date: 10/3/2023
+  * Description: Take 'n' numbers, store them in an array and print their sum
+ */
+
+#include <stdio.h>
+int main() {
+	int arr[100];
+	int n, num, total = 0; 
+
+	// ensure input size doesn't exceed size of array
+	do {
+		printf("Enter length of array (must be less than or equal to 100): ");
+		scanf("%d", &n);
+	} while (n > 100 || n < 1);
+
+	// user input
+	int i = 0;
+	while (i < n) {
+		printf("Enter number: ");
+		scanf("%d", &num);
+		arr[i++] = num;
+	}
+
+	// taking sum of all values
+	for (int j = 0; j < n; j++) {
+		total = total + arr[j];
+	}
+
+	printf("Sum of all numbers: %d", total);
+
+	return 0;
+}
