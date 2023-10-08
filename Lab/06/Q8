@@ -1,0 +1,32 @@
+/*
+ * Programmer: Areeba Hasnain
+ * Date: 10/3/2023
+ * Description: Take 'n' numbers, store them in an array and print them in reverse order
+ */
+
+#include <stdio.h>
+
+int main() {
+	int arr[100];
+	int n, num; 
+
+	// ensure input size doesn't exceed size of array
+	do {
+		printf("Enter length of array (must be equal to or less than 100): ");
+		scanf("%d", &n);
+	} while (n > 100 || n < 1);
+
+	// user input
+	int i = 0;
+	while (i < n) {
+		printf("Enter number: ");
+		scanf("%d", &num);
+		arr[i++] = num;
+	}
+
+	while (n--) {
+		printf("%d ", arr[n]);
+	}
+
+	return 0;
+} // end main
