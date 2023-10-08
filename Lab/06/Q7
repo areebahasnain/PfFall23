@@ -1,7 +1,7 @@
 /*
  * Programmer: Areeba Hasnain
  * Date: 10/3/2023
-  * Description: Take 'n' numbers, store them in an array and print their sum
+ * Description: Take 'n' numbers, store them in an array and print their sum
  */
 
 #include <stdio.h>
