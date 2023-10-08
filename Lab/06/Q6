@@ -1,0 +1,45 @@
+/*
+ * Programmer: Areeba Hasnain
+ * Date: 10/3/2023
+ * Description: A match stick game between the computer and a user. Ensure the computer always wins
+ */
+
+#include <stdio.h>
+int main() {
+	int sticks = 21, n;
+	printf("There are %d sticks", sticks);
+
+	while (sticks > 0) {
+		
+		// keep taking input until value is within range
+		do {
+			printf("\nPick 1,2,3 or 4 match sticks: ");
+			scanf("%d", &n);
+		} while (n > 4 || n < 1);
+		sticks = sticks - n;
+
+		// computer always subtracts alternate number in the list. if user picks 4 then 1, 3 then 2, 2 then 3 etc
+		switch (n) {
+			case 4:
+				sticks = sticks - 1;
+				break;
+			case 3:
+				sticks = sticks - 2;
+				break;
+			case 2:
+				sticks = sticks -  3;
+				break;
+			case 1:
+				sticks = sticks - 4;
+				break;
+		}		
+
+	
+		if (sticks >= 0) 
+			printf("Sticks left %d\n", sticks);
+		else 
+			printf("Sticks left 0");
+	}
+
+	return 0;
+} // end main
