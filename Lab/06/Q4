@@ -6,50 +6,55 @@
 
 #include <stdio.h>
 int main() {
-    int a, b, i;
+    int a, b, i=0;
     printf("Enter first number: ");
     scanf("%d", &a);
     printf("Enter second number: ");
     scanf("%d", &b);
 
-    while (a <= b) {
-        switch(a) {
+    while (a < b) {
+       a=i;
+       i++;
+       i<b;
+    }
+    printf ("The value of a is now: %d", a);
+    
+    switch(a) {
             case 1:
-                printf("One ");
+                printf("\nOne ");
                 break;
             case 2:
-                printf("Two ");
+                printf("\nTwo ");
                 break;
             case 3:
-                printf("Three ");
+                printf("\nThree ");
                 break;
             case 4:
-                printf("Four ");
+                printf("\nFour ");
                 break;
             case 5:
-                printf("Five ");
+                printf("\nFive ");
                 break;
             case 6:
-                printf("Six ");
+                printf("\nSix ");
                 break;
             case 7:
-                printf("Seven ");
+                printf("\nSeven ");
                 break;
             case 8:
-                printf("Eight ");
+                printf("\nEight ");
                 break;
             case 9:
-                printf("Nine ");
+                printf("\nNine ");
                 break;
             default:
                 // checking last bit. if off then even otherwise odd.
                 if(i%2==0) {
-                    printf("Even");
+                    printf("\nThe iterated value is: %d\nEven", i);
                 }
                 else { 
-                    printf("Odd");
+                    printf("\nThe iterated value is: %d\nOdd", i);
                 }
-    }
 
     return 0;
 }
