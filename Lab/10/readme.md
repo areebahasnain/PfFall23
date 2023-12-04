@@ -1,3 +1,4 @@
+# Q5 Outputs
 ## 100 X 100 
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/5d138220-8955-426d-ae3d-f0d5229f87c1)
 ## 500 X 500 
