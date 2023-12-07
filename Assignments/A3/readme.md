@@ -8,4 +8,6 @@
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/a31d0506-add6-4888-8a87-e1b159677495)
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/cf9422e0-327e-4627-af83-12a3a2f1b1c6)
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/97f46172-b78d-4670-9599-256cf33cc9ef)
+## Q4
+![image](https://github.com/areebahasnain/PfFall23/assets/142868074/c0555507-5ec4-4348-9ddd-c727beb93075)
 
