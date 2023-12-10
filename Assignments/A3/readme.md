@@ -6,7 +6,7 @@
 
 4X4
 
-![image](https://github.com/areebahasnain/PfFall23/assets/142868074/631358d6-f35b-4b73-9d8d-9a579eaf2f25)
+![image](https://github.com/areebahasnain/PfFall23/assets/142868074/ad42e907-1d96-4a2b-ab9c-1d058afecb76)
 
 8X8
 
