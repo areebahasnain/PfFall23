@@ -1,12 +1,15 @@
 # AREEBA HASNAIN 23K-0059
 ## Q1.
 2X2
+
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/ba20c02e-da1a-4600-bd9a-c1c23d2d08f3)
 
 4X4
+
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/631358d6-f35b-4b73-9d8d-9a579eaf2f25)
 
 8X8
+
 ![image](https://github.com/areebahasnain/PfFall23/assets/142868074/04bb907a-4304-4ed8-8b42-6830735f2e66)
 
 ## Q2. 
